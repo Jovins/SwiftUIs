@@ -53,9 +53,9 @@ enum CalculatorBrain {
         case .left(let left):
             return .left(left.apply(num)) // 数据拼数据
         case .leftOp(let left, let op):
-            return .leftOpRight(left: left, op: op, right: "0")
+            return .leftOpRight(left: left, op: op, right: "0".apply(num))
         case .leftOpRight(let left, let op, let right):
-            return .leftOpRight(left: left, op: op, right: right)
+            return .leftOpRight(left: left, op: op, right: right.apply(num))
         case .error:
             return .left("0".apply(num))
         }
@@ -67,9 +67,9 @@ enum CalculatorBrain {
         case .left(let left):
             return .left(left.applyDot())
         case .leftOp(let left, let op):
-            return .leftOpRight(left: left, op: op, right: "0")
+            return .leftOpRight(left: left, op: op, right: "0".applyDot())
         case .leftOpRight(let left, let op, let right):
-            return .leftOpRight(left: left, op: op, right: right)
+            return .leftOpRight(left: left, op: op, right: right.applyDot())
         case .error:
             return .left("0".applyDot())
         }
