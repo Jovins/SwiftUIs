@@ -10,7 +10,8 @@ import SwiftUI
 struct CalculatorContentView: View {
     
     let scale = UIScreen.main.bounds.width / 414
-    @State private var brain: CalculatorBrain = .left("0")
+    @State
+    private var brain: CalculatorBrain = .left("0")
     
     var body: some View {
         
@@ -33,7 +34,8 @@ struct CalculatorContentView: View {
 
 struct CalculatorButtonPad: View {
     
-    @Binding var brain: CalculatorBrain
+    @Binding
+    var brain: CalculatorBrain
     let pads: [[CalculatorButtonItem]] = [
         [.command(.clear), .command(.flip), .command(.percent), .op(.divide)],
         [.digit(7), .digit(8), .digit(9), .op(.multiply)],
@@ -54,7 +56,8 @@ struct CalculatorButtonPad: View {
 
 struct CalculatorButtonRow: View {
     
-    @Binding var brain: CalculatorBrain
+    @Binding
+    var brain: CalculatorBrain
     let row: [CalculatorButtonItem]
     
     var body: some View {
