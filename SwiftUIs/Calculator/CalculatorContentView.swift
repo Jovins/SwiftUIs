@@ -10,23 +10,22 @@ import SwiftUI
 struct CalculatorContentView: View {
     
     let scale = UIScreen.main.bounds.width / 414
-    @State
-    private var brain: CalculatorBrain = .left("0")
+    // @State
+    // private var brain: CalculatorBrain = .left("0")
+    @ObservedObject
+    var model = CalculatorModel()
     
     var body: some View {
         
         VStack(spacing: 12) {
             Spacer()
-            Text(brain.output)
+            Text(model.brain.output)
                 .font(.system(size: 76))
                 .minimumScaleFactor(0.5)
                 .padding(.trailing, 24 * scale)
                 .lineLimit(1) // 限制一行
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
-            Button("Test") {
-                self.brain = .left("1.232")
-            }
-            CalculatorButtonPad(brain: $brain)
+            CalculatorButtonPad(brain: $model.brain)
                 .padding(.bottom)
         }
     }
