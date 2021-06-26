@@ -12,6 +12,7 @@ struct CalculatorContentView: View {
     let scale = UIScreen.main.bounds.width / 414
     @EnvironmentObject var model: CalculatorModel
     @State private var editingHistory: Bool = false
+    @State private var isAlert: Bool = false
     
     var body: some View {
         
@@ -20,7 +21,7 @@ struct CalculatorContentView: View {
             Button("操作履历: \(model.history.count)") {
                 self.editingHistory = true
             }.sheet(isPresented: self.$editingHistory) {
-                HistoryView(model: self.model)
+                HistoryView(model: self.model, editingHistory: self.$editingHistory)
             }
             
             Text(model.brain.output)
@@ -29,6 +30,13 @@ struct CalculatorContentView: View {
                 .padding(.trailing, 24 * scale)
                 .lineLimit(1) // 限制一行
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
+                .onTapGesture {
+                    self.isAlert = true
+                }.alert(isPresented: self.$isAlert) {
+                    Alert(title: Text("\(model.historyDetail)"), message: Text("\(model.brain.output)"), primaryButton: .default(Text("复制"), action: {
+                        UIPasteboard.general.string = model.brain.output
+                    }), secondaryButton: .cancel(Text("取消")))
+                }
             CalculatorButtonPad()
                 .padding(.bottom)
         }
@@ -97,7 +105,20 @@ struct CalculatorButton: View {
 struct HistoryView: View {
     
     @ObservedObject var model: CalculatorModel
+    @Binding var editingHistory: Bool
+    
     var body: some View {
+        Button {
+            self.editingHistory.toggle()
+        } label: {
+            Text("关闭")
+                .font(.system(size: 18))
+                .foregroundColor(.white)
+                .frame(width: 72, height: 36)
+                .background(Color.orange)
+                .cornerRadius(30)
+        }
+
         VStack {
             if model.totalCount == 0 {
                 Text("没有履历")
