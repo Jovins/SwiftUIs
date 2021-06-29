@@ -20,10 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         
-        let contentView = CalculatorContentView() // 计算机
+        // let contentView = CalculatorContentView() // 计算机
+        let contentView = ContentView()
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(CalculatorModel()))
+            // window.rootViewController = UIHostingController(rootView: contentView.environmentObject(CalculatorModel()))
+            window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
         }

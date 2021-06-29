@@ -28,6 +28,6 @@ extension Array where Element: LanguageTextEntry {
     }
     
     var EN: String {
-        first { $0.language.isCN }?.text ?? "Unknown"
+        first { $0.language.isEN }?.text ?? "Unknown"
     }
 }

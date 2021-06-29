@@ -12,8 +12,7 @@ struct ContentView: View {
     let scale = UIScreen.main.bounds.width / 414
     var body: some View {
         
-        Text("0")
-            .padding()
+        PokemonList()
     }
 }
 

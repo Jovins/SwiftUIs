@@ -22,10 +22,32 @@ struct PokemonViewModel: Identifiable, Codable {
     var genus: String { species.genera.CN }
     var genusEN: String { species.genera.EN }
     
+    var types: [Type] {
+        self.pokemon.types
+            .sorted { $0.slot < $1.slot }
+            .map { Type(pokemonType: $0) }
+    }
+    
+    var iconImageURL: URL {
+        URL(string: "https://raw.githubusercontent.com/onevcat/pokemaster-images/master/images/Pokemon-\(id).png")!
+    }
+    
+    var detailPageURL: URL {
+        URL(string: "https://cn.portal-pokemon.com/play/pokedex/\(String(format: "%03d", id))")!
+    }
+    
+    var descriptionText: String { species.flavorTextEntries.CN.newlineRemoved }
+    var descriptionTextEN: String { species.flavorTextEntries.EN.newlineRemoved }
     
     init(pokemon: Pokemon, species: PokemonSpecies) {
         self.pokemon = pokemon
         self.species = species
+    }
+}
+
+extension PokemonViewModel: CustomStringConvertible {
+    var description: String {
+        "PokemonViewModel - \(id) - \(self.name)"
     }
 }
 
