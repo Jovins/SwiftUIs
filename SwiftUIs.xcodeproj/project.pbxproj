@@ -89,6 +89,12 @@
 		6C3D5591268A4DA40000FDFB /* PokemonRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D5590268A4DA40000FDFB /* PokemonRootView.swift */; };
 		6C3D5595268A4EAF0000FDFB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D5594268A4EAF0000FDFB /* SettingView.swift */; };
 		6C3D5599268A52EC0000FDFB /* SettingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D5598268A52EC0000FDFB /* SettingRootView.swift */; };
+		6C4EBBEF26A82B8E00E31612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBBEE26A82B8E00E31612 /* AppDelegate.swift */; };
+		6C4EBBF126A82B8E00E31612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF026A82B8E00E31612 /* SceneDelegate.swift */; };
+		6C4EBBF326A82B8E00E31612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF226A82B8E00E31612 /* ContentView.swift */; };
+		6C4EBBF526A82B8F00E31612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF426A82B8F00E31612 /* Assets.xcassets */; };
+		6C4EBBF826A82B8F00E31612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF726A82B8F00E31612 /* Preview Assets.xcassets */; };
+		6C4EBBFB26A82B8F00E31612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF926A82B8F00E31612 /* LaunchScreen.storyboard */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -98,6 +104,19 @@
 		6C89489E2683383300FFBEED /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */; };
 		6C8948A12683B3D700FFBEED /* CalculatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C3D55B1268C7B8E0000FDFB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6C3D54C9268477280000FDFB /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
@@ -182,6 +201,16 @@
 		6C3D5590268A4DA40000FDFB /* PokemonRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PokemonRootView.swift; path = SwiftUIs/Calculator/PokemonRootView.swift; sourceTree = SOURCE_ROOT; };
 		6C3D5594268A4EAF0000FDFB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingView.swift; path = SwiftUIs/Calculator/SettingView.swift; sourceTree = SOURCE_ROOT; };
 		6C3D5598268A52EC0000FDFB /* SettingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingRootView.swift; path = SwiftUIs/Calculator/SettingRootView.swift; sourceTree = SOURCE_ROOT; };
+		6C3D55A1268C7B870000FDFB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6C3D55A3268C7B870000FDFB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6C4EBBEC26A82B8E00E31612 /* SwiftUI-CardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CardAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4EBBEE26A82B8E00E31612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C4EBBF026A82B8E00E31612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C4EBBF226A82B8E00E31612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C4EBBF426A82B8F00E31612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4EBBF726A82B8F00E31612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C4EBBFA26A82B8F00E31612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C4EBBFC26A82B8F00E31612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +224,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C4EBBE926A82B8E00E31612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C89487F26832C2600FFBEED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,10 +432,43 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
+		6C3D55A0268C7B870000FDFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3D55A1268C7B870000FDFB /* WidgetKit.framework */,
+				6C3D55A3268C7B870000FDFB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C4EBBED26A82B8E00E31612 /* SwiftUI-CardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EBBEE26A82B8E00E31612 /* AppDelegate.swift */,
+				6C4EBBF026A82B8E00E31612 /* SceneDelegate.swift */,
+				6C4EBBF226A82B8E00E31612 /* ContentView.swift */,
+				6C4EBBF426A82B8F00E31612 /* Assets.xcassets */,
+				6C4EBBF926A82B8F00E31612 /* LaunchScreen.storyboard */,
+				6C4EBBFC26A82B8F00E31612 /* Info.plist */,
+				6C4EBBF626A82B8F00E31612 /* Preview Content */,
+			);
+			path = "SwiftUI-CardAnimation";
+			sourceTree = "<group>";
+		};
+		6C4EBBF626A82B8F00E31612 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EBBF726A82B8F00E31612 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		6C89487926832C2600FFBEED = {
 			isa = PBXGroup;
 			children = (
 				6C89488426832C2600FFBEED /* SwiftUIs */,
+				6C4EBBED26A82B8E00E31612 /* SwiftUI-CardAnimation */,
+				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -408,6 +477,7 @@
 			isa = PBXGroup;
 			children = (
 				6C89488226832C2600FFBEED /* SwiftUIs.app */,
+				6C4EBBEC26A82B8E00E31612 /* SwiftUI-CardAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,6 +520,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6C4EBBEB26A82B8E00E31612 /* SwiftUI-CardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4EBBFD26A82B8F00E31612 /* Build configuration list for PBXNativeTarget "SwiftUI-CardAnimation" */;
+			buildPhases = (
+				6C4EBBE826A82B8E00E31612 /* Sources */,
+				6C4EBBE926A82B8E00E31612 /* Frameworks */,
+				6C4EBBEA26A82B8E00E31612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-CardAnimation";
+			productName = "SwiftUI-CardAnimation";
+			productReference = 6C4EBBEC26A82B8E00E31612 /* SwiftUI-CardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6C89488126832C2600FFBEED /* SwiftUIs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C89489626832C2700FFBEED /* Build configuration list for PBXNativeTarget "SwiftUIs" */;
@@ -457,6 +544,7 @@
 				6C89487E26832C2600FFBEED /* Sources */,
 				6C89487F26832C2600FFBEED /* Frameworks */,
 				6C89488026832C2600FFBEED /* Resources */,
+				6C3D55B1268C7B8E0000FDFB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -476,6 +564,9 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					6C4EBBEB26A82B8E00E31612 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					6C89488126832C2600FFBEED = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -495,11 +586,22 @@
 			projectRoot = "";
 			targets = (
 				6C89488126832C2600FFBEED /* SwiftUIs */,
+				6C4EBBEB26A82B8E00E31612 /* SwiftUI-CardAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6C4EBBEA26A82B8E00E31612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4EBBFB26A82B8F00E31612 /* LaunchScreen.storyboard in Resources */,
+				6C4EBBF826A82B8F00E31612 /* Preview Assets.xcassets in Resources */,
+				6C4EBBF526A82B8F00E31612 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C89488026832C2600FFBEED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,6 +677,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C4EBBE826A82B8E00E31612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4EBBEF26A82B8E00E31612 /* AppDelegate.swift in Sources */,
+				6C4EBBF126A82B8E00E31612 /* SceneDelegate.swift in Sources */,
+				6C4EBBF326A82B8E00E31612 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C89487E26832C2600FFBEED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -610,6 +722,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6C4EBBF926A82B8F00E31612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4EBBFA26A82B8F00E31612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6C89489026832C2700FFBEED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -621,6 +741,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6C4EBBFE26A82B8F00E31612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-CardAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-CardAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-CardAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C4EBBFF26A82B8F00E31612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-CardAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-CardAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-CardAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6C89489426832C2700FFBEED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -740,6 +902,7 @@
 		6C89489726832C2700FFBEED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -761,6 +924,7 @@
 		6C89489826832C2700FFBEED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -782,6 +946,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6C4EBBFD26A82B8F00E31612 /* Build configuration list for PBXNativeTarget "SwiftUI-CardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4EBBFE26A82B8F00E31612 /* Debug */,
+				6C4EBBFF26A82B8F00E31612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6C89487D26832C2600FFBEED /* Build configuration list for PBXProject "SwiftUIs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
