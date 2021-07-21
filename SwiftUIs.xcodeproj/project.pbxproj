@@ -95,6 +95,12 @@
 		6C4EBBF526A82B8F00E31612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF426A82B8F00E31612 /* Assets.xcassets */; };
 		6C4EBBF826A82B8F00E31612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF726A82B8F00E31612 /* Preview Assets.xcassets */; };
 		6C4EBBFB26A82B8F00E31612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBBF926A82B8F00E31612 /* LaunchScreen.storyboard */; };
+		6C4EBC0926A831BF00E31612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBC0826A831BF00E31612 /* AppDelegate.swift */; };
+		6C4EBC0B26A831BF00E31612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBC0A26A831BF00E31612 /* SceneDelegate.swift */; };
+		6C4EBC0D26A831BF00E31612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EBC0C26A831BF00E31612 /* ContentView.swift */; };
+		6C4EBC0F26A831BF00E31612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBC0E26A831BF00E31612 /* Assets.xcassets */; };
+		6C4EBC1226A831BF00E31612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBC1126A831BF00E31612 /* Preview Assets.xcassets */; };
+		6C4EBC1526A831BF00E31612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4EBC1326A831BF00E31612 /* LaunchScreen.storyboard */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -211,6 +217,14 @@
 		6C4EBBF726A82B8F00E31612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C4EBBFA26A82B8F00E31612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C4EBBFC26A82B8F00E31612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4EBC0626A831BF00E31612 /* SwiftUI-BasicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-BasicAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4EBC0826A831BF00E31612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C4EBC0A26A831BF00E31612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C4EBC0C26A831BF00E31612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C4EBC0E26A831BF00E31612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4EBC1126A831BF00E31612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C4EBC1426A831BF00E31612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C4EBC1626A831BF00E31612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -225,6 +239,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6C4EBBE926A82B8E00E31612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4EBC0326A831BF00E31612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,11 +484,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6C4EBC0726A831BF00E31612 /* SwiftUI-BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EBC0826A831BF00E31612 /* AppDelegate.swift */,
+				6C4EBC0A26A831BF00E31612 /* SceneDelegate.swift */,
+				6C4EBC0C26A831BF00E31612 /* ContentView.swift */,
+				6C4EBC0E26A831BF00E31612 /* Assets.xcassets */,
+				6C4EBC1326A831BF00E31612 /* LaunchScreen.storyboard */,
+				6C4EBC1626A831BF00E31612 /* Info.plist */,
+				6C4EBC1026A831BF00E31612 /* Preview Content */,
+			);
+			path = "SwiftUI-BasicAnimation";
+			sourceTree = "<group>";
+		};
+		6C4EBC1026A831BF00E31612 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EBC1126A831BF00E31612 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		6C89487926832C2600FFBEED = {
 			isa = PBXGroup;
 			children = (
 				6C89488426832C2600FFBEED /* SwiftUIs */,
 				6C4EBBED26A82B8E00E31612 /* SwiftUI-CardAnimation */,
+				6C4EBC0726A831BF00E31612 /* SwiftUI-BasicAnimation */,
 				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
@@ -478,6 +522,7 @@
 			children = (
 				6C89488226832C2600FFBEED /* SwiftUIs.app */,
 				6C4EBBEC26A82B8E00E31612 /* SwiftUI-CardAnimation.app */,
+				6C4EBC0626A831BF00E31612 /* SwiftUI-BasicAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -537,6 +582,23 @@
 			productReference = 6C4EBBEC26A82B8E00E31612 /* SwiftUI-CardAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6C4EBC0526A831BF00E31612 /* SwiftUI-BasicAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4EBC1726A831BF00E31612 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicAnimation" */;
+			buildPhases = (
+				6C4EBC0226A831BF00E31612 /* Sources */,
+				6C4EBC0326A831BF00E31612 /* Frameworks */,
+				6C4EBC0426A831BF00E31612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-BasicAnimation";
+			productName = "SwiftUI-BasicAnimation";
+			productReference = 6C4EBC0626A831BF00E31612 /* SwiftUI-BasicAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6C89488126832C2600FFBEED /* SwiftUIs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C89489626832C2700FFBEED /* Build configuration list for PBXNativeTarget "SwiftUIs" */;
@@ -567,6 +629,9 @@
 					6C4EBBEB26A82B8E00E31612 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					6C4EBC0526A831BF00E31612 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					6C89488126832C2600FFBEED = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -587,6 +652,7 @@
 			targets = (
 				6C89488126832C2600FFBEED /* SwiftUIs */,
 				6C4EBBEB26A82B8E00E31612 /* SwiftUI-CardAnimation */,
+				6C4EBC0526A831BF00E31612 /* SwiftUI-BasicAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -599,6 +665,16 @@
 				6C4EBBFB26A82B8F00E31612 /* LaunchScreen.storyboard in Resources */,
 				6C4EBBF826A82B8F00E31612 /* Preview Assets.xcassets in Resources */,
 				6C4EBBF526A82B8F00E31612 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4EBC0426A831BF00E31612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4EBC1526A831BF00E31612 /* LaunchScreen.storyboard in Resources */,
+				6C4EBC1226A831BF00E31612 /* Preview Assets.xcassets in Resources */,
+				6C4EBC0F26A831BF00E31612 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +763,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C4EBC0226A831BF00E31612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4EBC0926A831BF00E31612 /* AppDelegate.swift in Sources */,
+				6C4EBC0B26A831BF00E31612 /* SceneDelegate.swift in Sources */,
+				6C4EBC0D26A831BF00E31612 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C89487E26832C2600FFBEED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,6 +812,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				6C4EBBFA26A82B8F00E31612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C4EBC1326A831BF00E31612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4EBC1426A831BF00E31612 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -777,6 +871,48 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-CardAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C4EBC1826A831BF00E31612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-BasicAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-BasicAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-BasicAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C4EBC1926A831BF00E31612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-BasicAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-BasicAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-BasicAnimation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -951,6 +1087,15 @@
 			buildConfigurations = (
 				6C4EBBFE26A82B8F00E31612 /* Debug */,
 				6C4EBBFF26A82B8F00E31612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4EBC1726A831BF00E31612 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4EBC1826A831BF00E31612 /* Debug */,
+				6C4EBC1926A831BF00E31612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
