@@ -193,6 +193,15 @@
 		6C53F77E26AA60F500A77618 /* LightSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F77D26AA60F500A77618 /* LightSwitchView.swift */; };
 		6C53F79326AA842400A77618 /* InfinityShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F79226AA842400A77618 /* InfinityShape.swift */; };
 		6C53F7A726AA847F00A77618 /* InfinityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7A626AA847F00A77618 /* InfinityView.swift */; };
+		6C53F7B426AA8C2D00A77618 /* Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7B326AA8C2D00A77618 /* Plus.swift */; };
+		6C53F7C826AA8C5E00A77618 /* Bolt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7C726AA8C5E00A77618 /* Bolt.swift */; };
+		6C53F7D326AA8C7F00A77618 /* ShrinkingPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7D226AA8C7F00A77618 /* ShrinkingPlus.swift */; };
+		6C53F7DF26AA8CBB00A77618 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7DE26AA8CBB00A77618 /* Color+Extension.swift */; };
+		6C53F7F326AA8D0200A77618 /* PlusPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7F226AA8D0200A77618 /* PlusPosition.swift */; };
+		6C53F7FE26AA8D5800A77618 /* RoundedTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7FD26AA8D5800A77618 /* RoundedTriangle.swift */; };
+		6C53F80926AA8D9500A77618 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F80826AA8D9500A77618 /* SwiftUIView.swift */; };
+		6C53F81426AA8DD200A77618 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F81326AA8DD200A77618 /* LoginView.swift */; };
+		6C53F81F26AA8E2A00A77618 /* LoginTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F81E26AA8E2A00A77618 /* LoginTriangle.swift */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -421,6 +430,15 @@
 		6C53F77D26AA60F500A77618 /* LightSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchView.swift; sourceTree = "<group>"; };
 		6C53F79226AA842400A77618 /* InfinityShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityShape.swift; sourceTree = "<group>"; };
 		6C53F7A626AA847F00A77618 /* InfinityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityView.swift; sourceTree = "<group>"; };
+		6C53F7B326AA8C2D00A77618 /* Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus.swift; sourceTree = "<group>"; };
+		6C53F7C726AA8C5E00A77618 /* Bolt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bolt.swift; sourceTree = "<group>"; };
+		6C53F7D226AA8C7F00A77618 /* ShrinkingPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkingPlus.swift; sourceTree = "<group>"; };
+		6C53F7DE26AA8CBB00A77618 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		6C53F7F226AA8D0200A77618 /* PlusPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusPosition.swift; sourceTree = "<group>"; };
+		6C53F7FD26AA8D5800A77618 /* RoundedTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTriangle.swift; sourceTree = "<group>"; };
+		6C53F80826AA8D9500A77618 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		6C53F81326AA8DD200A77618 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6C53F81E26AA8E2A00A77618 /* LoginTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTriangle.swift; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -988,6 +1006,7 @@
 		6C53F72D26AA571E00A77618 /* SwiftUI-Animation */ = {
 			isa = PBXGroup;
 			children = (
+				6C53F7DD26AA8CAD00A77618 /* Extension */,
 				6C53F74926AA572700A77618 /* Animations */,
 				6C53F72E26AA571E00A77618 /* AppDelegate.swift */,
 				6C53F73026AA571E00A77618 /* SceneDelegate.swift */,
@@ -1012,6 +1031,7 @@
 		6C53F74926AA572700A77618 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				6C53F7B126AA8C0800A77618 /* LoginView */,
 				6C53F79126AA6FA100A77618 /* InfinityLoader */,
 				6C53F77C26AA5F4D00A77618 /* LightSwitchView */,
 				6C53F76726AA592200A77618 /* SpinningLoader */,
@@ -1042,6 +1062,37 @@
 				6C53F7A626AA847F00A77618 /* InfinityView.swift */,
 			);
 			path = InfinityLoader;
+			sourceTree = "<group>";
+		};
+		6C53F7B126AA8C0800A77618 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F7B226AA8C1500A77618 /* shape */,
+				6C53F81326AA8DD200A77618 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6C53F7B226AA8C1500A77618 /* shape */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F7B326AA8C2D00A77618 /* Plus.swift */,
+				6C53F7C726AA8C5E00A77618 /* Bolt.swift */,
+				6C53F7D226AA8C7F00A77618 /* ShrinkingPlus.swift */,
+				6C53F7F226AA8D0200A77618 /* PlusPosition.swift */,
+				6C53F7FD26AA8D5800A77618 /* RoundedTriangle.swift */,
+				6C53F80826AA8D9500A77618 /* SwiftUIView.swift */,
+				6C53F81E26AA8E2A00A77618 /* LoginTriangle.swift */,
+			);
+			path = shape;
+			sourceTree = "<group>";
+		};
+		6C53F7DD26AA8CAD00A77618 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F7DE26AA8CBB00A77618 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		6C89487926832C2600FFBEED = {
@@ -1615,13 +1666,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C53F72F26AA571E00A77618 /* AppDelegate.swift in Sources */,
+				6C53F7FE26AA8D5800A77618 /* RoundedTriangle.swift in Sources */,
 				6C53F77E26AA60F500A77618 /* LightSwitchView.swift in Sources */,
+				6C53F7F326AA8D0200A77618 /* PlusPosition.swift in Sources */,
 				6C53F7A726AA847F00A77618 /* InfinityView.swift in Sources */,
 				6C53F79326AA842400A77618 /* InfinityShape.swift in Sources */,
 				6C53F74B26AA576F00A77618 /* ContentViewRow.swift in Sources */,
 				6C53F76926AA594E00A77618 /* SpinningView.swift in Sources */,
 				6C53F73126AA571E00A77618 /* SceneDelegate.swift in Sources */,
+				6C53F7DF26AA8CBB00A77618 /* Color+Extension.swift in Sources */,
+				6C53F7B426AA8C2D00A77618 /* Plus.swift in Sources */,
+				6C53F7C826AA8C5E00A77618 /* Bolt.swift in Sources */,
 				6C53F73326AA571E00A77618 /* ContentView.swift in Sources */,
+				6C53F81F26AA8E2A00A77618 /* LoginTriangle.swift in Sources */,
+				6C53F7D326AA8C7F00A77618 /* ShrinkingPlus.swift in Sources */,
+				6C53F81426AA8DD200A77618 /* LoginView.swift in Sources */,
+				6C53F80926AA8D9500A77618 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
