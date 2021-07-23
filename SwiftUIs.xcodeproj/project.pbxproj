@@ -210,6 +210,7 @@
 		6C53F88A26AAA3EB00A77618 /* CapusuleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F88926AAA3EB00A77618 /* CapusuleGroupView.swift */; };
 		6C53F89526AAA6EC00A77618 /* ShrinkingCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F89426AAA6EC00A77618 /* ShrinkingCapsule.swift */; };
 		6C53F8A026AAA75800A77618 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F89F26AAA75800A77618 /* LikeView.swift */; };
+		6C53F8AC26AAA89F00A77618 /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8AB26AAA89F00A77618 /* CircleLoader.swift */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -455,6 +456,7 @@
 		6C53F88926AAA3EB00A77618 /* CapusuleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapusuleGroupView.swift; sourceTree = "<group>"; };
 		6C53F89426AAA6EC00A77618 /* ShrinkingCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkingCapsule.swift; sourceTree = "<group>"; };
 		6C53F89F26AAA75800A77618 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		6C53F8AB26AAA89F00A77618 /* CircleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -1047,6 +1049,7 @@
 		6C53F74926AA572700A77618 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				6C53F8AA26AAA88D00A77618 /* CircleLoader */,
 				6C53F85D26AAA26800A77618 /* LikeView */,
 				6C53F82926AA9C4E00A77618 /* GithubLoader */,
 				6C53F7B126AA8C0800A77618 /* LoginView */,
@@ -1141,6 +1144,14 @@
 				6C53F89426AAA6EC00A77618 /* ShrinkingCapsule.swift */,
 			);
 			path = Shape;
+			sourceTree = "<group>";
+		};
+		6C53F8AA26AAA88D00A77618 /* CircleLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F8AB26AAA89F00A77618 /* CircleLoader.swift */,
+			);
+			path = CircleLoader;
 			sourceTree = "<group>";
 		};
 		6C89487926832C2600FFBEED = {
@@ -1713,6 +1724,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C53F8AC26AAA89F00A77618 /* CircleLoader.swift in Sources */,
 				6C53F88A26AAA3EB00A77618 /* CapusuleGroupView.swift in Sources */,
 				6C53F84826AA9C9000A77618 /* GithubShape.swift in Sources */,
 				6C53F72F26AA571E00A77618 /* AppDelegate.swift in Sources */,
