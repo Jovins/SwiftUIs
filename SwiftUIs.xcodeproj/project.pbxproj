@@ -191,6 +191,8 @@
 		6C53F74B26AA576F00A77618 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F74A26AA576F00A77618 /* ContentViewRow.swift */; };
 		6C53F76926AA594E00A77618 /* SpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F76826AA594E00A77618 /* SpinningView.swift */; };
 		6C53F77E26AA60F500A77618 /* LightSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F77D26AA60F500A77618 /* LightSwitchView.swift */; };
+		6C53F79326AA842400A77618 /* InfinityShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F79226AA842400A77618 /* InfinityShape.swift */; };
+		6C53F7A726AA847F00A77618 /* InfinityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F7A626AA847F00A77618 /* InfinityView.swift */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -417,6 +419,8 @@
 		6C53F74A26AA576F00A77618 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		6C53F76826AA594E00A77618 /* SpinningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningView.swift; sourceTree = "<group>"; };
 		6C53F77D26AA60F500A77618 /* LightSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchView.swift; sourceTree = "<group>"; };
+		6C53F79226AA842400A77618 /* InfinityShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityShape.swift; sourceTree = "<group>"; };
+		6C53F7A626AA847F00A77618 /* InfinityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityView.swift; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -1008,6 +1012,7 @@
 		6C53F74926AA572700A77618 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				6C53F79126AA6FA100A77618 /* InfinityLoader */,
 				6C53F77C26AA5F4D00A77618 /* LightSwitchView */,
 				6C53F76726AA592200A77618 /* SpinningLoader */,
 			);
@@ -1028,6 +1033,15 @@
 				6C53F77D26AA60F500A77618 /* LightSwitchView.swift */,
 			);
 			path = LightSwitchView;
+			sourceTree = "<group>";
+		};
+		6C53F79126AA6FA100A77618 /* InfinityLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F79226AA842400A77618 /* InfinityShape.swift */,
+				6C53F7A626AA847F00A77618 /* InfinityView.swift */,
+			);
+			path = InfinityLoader;
 			sourceTree = "<group>";
 		};
 		6C89487926832C2600FFBEED = {
@@ -1602,6 +1616,8 @@
 			files = (
 				6C53F72F26AA571E00A77618 /* AppDelegate.swift in Sources */,
 				6C53F77E26AA60F500A77618 /* LightSwitchView.swift in Sources */,
+				6C53F7A726AA847F00A77618 /* InfinityView.swift in Sources */,
+				6C53F79326AA842400A77618 /* InfinityShape.swift in Sources */,
 				6C53F74B26AA576F00A77618 /* ContentViewRow.swift in Sources */,
 				6C53F76926AA594E00A77618 /* SpinningView.swift in Sources */,
 				6C53F73126AA571E00A77618 /* SceneDelegate.swift in Sources */,
