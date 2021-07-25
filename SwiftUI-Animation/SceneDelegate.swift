@@ -26,7 +26,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let contentView = LoginView()
         // let contentView = GithubLoader()
         // let contentView = LikeView()
-        let contentView = CircleLoader()
+        // let contentView = CircleLoader()
+        let contentView = RemoveButton()
         
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
