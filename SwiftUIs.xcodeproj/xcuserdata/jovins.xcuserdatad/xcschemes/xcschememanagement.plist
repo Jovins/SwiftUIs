@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>SwiftUI-AnimateTabbar.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>SwiftUI-Animation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

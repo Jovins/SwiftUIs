@@ -212,6 +212,14 @@
 		6C53F8A026AAA75800A77618 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F89F26AAA75800A77618 /* LikeView.swift */; };
 		6C53F8AC26AAA89F00A77618 /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8AB26AAA89F00A77618 /* CircleLoader.swift */; };
 		6C53F8C426AD0DED00A77618 /* RemoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8C326AD0DED00A77618 /* RemoveButton.swift */; };
+		6C53F8E026AD189100A77618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8DF26AD189100A77618 /* AppDelegate.swift */; };
+		6C53F8E226AD189100A77618 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8E126AD189100A77618 /* SceneDelegate.swift */; };
+		6C53F8E426AD189100A77618 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8E326AD189100A77618 /* ContentView.swift */; };
+		6C53F8E626AD189200A77618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C53F8E526AD189200A77618 /* Assets.xcassets */; };
+		6C53F8E926AD189200A77618 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C53F8E826AD189200A77618 /* Preview Assets.xcassets */; };
+		6C53F8EC26AD189200A77618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C53F8EA26AD189200A77618 /* LaunchScreen.storyboard */; };
+		6C53F8FD26AD272A00A77618 /* TabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8FC26AD272A00A77618 /* TabbarShape.swift */; };
+		6C53F91326AD2CE900A77618 /* TabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F91226AD2CE900A77618 /* TabbarButton.swift */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -459,6 +467,16 @@
 		6C53F89F26AAA75800A77618 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		6C53F8AB26AAA89F00A77618 /* CircleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
 		6C53F8C326AD0DED00A77618 /* RemoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveButton.swift; sourceTree = "<group>"; };
+		6C53F8DD26AD189100A77618 /* SwiftUI-AnimateTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-AnimateTabbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C53F8DF26AD189100A77618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C53F8E126AD189100A77618 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C53F8E326AD189100A77618 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C53F8E526AD189200A77618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C53F8E826AD189200A77618 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C53F8EB26AD189200A77618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C53F8ED26AD189200A77618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C53F8FC26AD272A00A77618 /* TabbarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarShape.swift; sourceTree = "<group>"; };
+		6C53F91226AD2CE900A77618 /* TabbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarButton.swift; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -522,6 +540,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6C53F72926AA571E00A77618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C53F8DA26AD189100A77618 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1165,6 +1190,38 @@
 			path = RemoveButton;
 			sourceTree = "<group>";
 		};
+		6C53F8DE26AD189100A77618 /* SwiftUI-AnimateTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F8FB26AD189B00A77618 /* Tabbar */,
+				6C53F8DF26AD189100A77618 /* AppDelegate.swift */,
+				6C53F8E126AD189100A77618 /* SceneDelegate.swift */,
+				6C53F8E326AD189100A77618 /* ContentView.swift */,
+				6C53F8E526AD189200A77618 /* Assets.xcassets */,
+				6C53F8EA26AD189200A77618 /* LaunchScreen.storyboard */,
+				6C53F8ED26AD189200A77618 /* Info.plist */,
+				6C53F8E726AD189200A77618 /* Preview Content */,
+			);
+			path = "SwiftUI-AnimateTabbar";
+			sourceTree = "<group>";
+		};
+		6C53F8E726AD189200A77618 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F8E826AD189200A77618 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C53F8FB26AD189B00A77618 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F8FC26AD272A00A77618 /* TabbarShape.swift */,
+				6C53F91226AD2CE900A77618 /* TabbarButton.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		6C89487926832C2600FFBEED = {
 			isa = PBXGroup;
 			children = (
@@ -1177,6 +1234,7 @@
 				6C53F5E826A96B7400A77618 /* WWDCPlayer */,
 				6C53F64526A97AC300A77618 /* Landmarks */,
 				6C53F72D26AA571E00A77618 /* SwiftUI-Animation */,
+				6C53F8DE26AD189100A77618 /* SwiftUI-AnimateTabbar */,
 				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
@@ -1194,6 +1252,7 @@
 				6C53F5E726A96B7400A77618 /* WWDCPlayer.app */,
 				6C53F64426A97AC300A77618 /* Landmarks.app */,
 				6C53F72C26AA571E00A77618 /* SwiftUI-Animation.app */,
+				6C53F8DD26AD189100A77618 /* SwiftUI-AnimateTabbar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1372,6 +1431,23 @@
 			productReference = 6C53F72C26AA571E00A77618 /* SwiftUI-Animation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6C53F8DC26AD189100A77618 /* SwiftUI-AnimateTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C53F8EE26AD189200A77618 /* Build configuration list for PBXNativeTarget "SwiftUI-AnimateTabbar" */;
+			buildPhases = (
+				6C53F8D926AD189100A77618 /* Sources */,
+				6C53F8DA26AD189100A77618 /* Frameworks */,
+				6C53F8DB26AD189100A77618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-AnimateTabbar";
+			productName = "SwiftUI-AnimateTabbar";
+			productReference = 6C53F8DD26AD189100A77618 /* SwiftUI-AnimateTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6C89488126832C2600FFBEED /* SwiftUIs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C89489626832C2700FFBEED /* Build configuration list for PBXNativeTarget "SwiftUIs" */;
@@ -1423,6 +1499,9 @@
 					6C53F72B26AA571E00A77618 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					6C53F8DC26AD189100A77618 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					6C89488126832C2600FFBEED = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1450,6 +1529,7 @@
 				6C53F5E626A96B7400A77618 /* WWDCPlayer */,
 				6C53F64326A97AC300A77618 /* Landmarks */,
 				6C53F72B26AA571E00A77618 /* SwiftUI-Animation */,
+				6C53F8DC26AD189100A77618 /* SwiftUI-AnimateTabbar */,
 			);
 		};
 /* End PBXProject section */
@@ -1545,6 +1625,16 @@
 				6C53F73B26AA571F00A77618 /* LaunchScreen.storyboard in Resources */,
 				6C53F73826AA571F00A77618 /* Preview Assets.xcassets in Resources */,
 				6C53F73526AA571F00A77618 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C53F8DB26AD189100A77618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C53F8EC26AD189200A77618 /* LaunchScreen.storyboard in Resources */,
+				6C53F8E926AD189200A77618 /* Preview Assets.xcassets in Resources */,
+				6C53F8E626AD189200A77618 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1765,6 +1855,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C53F8D926AD189100A77618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C53F91326AD2CE900A77618 /* TabbarButton.swift in Sources */,
+				6C53F8E026AD189100A77618 /* AppDelegate.swift in Sources */,
+				6C53F8FD26AD272A00A77618 /* TabbarShape.swift in Sources */,
+				6C53F8E226AD189100A77618 /* SceneDelegate.swift in Sources */,
+				6C53F8E426AD189100A77618 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C89487E26832C2600FFBEED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1860,6 +1962,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				6C53F73A26AA571F00A77618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C53F8EA26AD189200A77618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C53F8EB26AD189200A77618 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2211,6 +2321,48 @@
 			};
 			name = Release;
 		};
+		6C53F8EF26AD189200A77618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-AnimateTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-AnimateTabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-AnimateTabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C53F8F026AD189200A77618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-AnimateTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-AnimateTabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-AnimateTabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6C89489426832C2700FFBEED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2442,6 +2594,15 @@
 			buildConfigurations = (
 				6C53F73D26AA571F00A77618 /* Debug */,
 				6C53F73E26AA571F00A77618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C53F8EE26AD189200A77618 /* Build configuration list for PBXNativeTarget "SwiftUI-AnimateTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C53F8EF26AD189200A77618 /* Debug */,
+				6C53F8F026AD189200A77618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
