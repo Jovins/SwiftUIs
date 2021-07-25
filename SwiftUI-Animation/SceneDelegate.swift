@@ -28,7 +28,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let contentView = LikeView()
         // let contentView = CircleLoader()
         // let contentView = RemoveButton()
-        let contentView = AnimatedDots()
+        // let contentView = AnimatedDots()
+        let contentView = AnimatedBallsView()
         
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
