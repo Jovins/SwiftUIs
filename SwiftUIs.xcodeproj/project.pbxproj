@@ -220,6 +220,7 @@
 		6C53F8EC26AD189200A77618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C53F8EA26AD189200A77618 /* LaunchScreen.storyboard */; };
 		6C53F8FD26AD272A00A77618 /* TabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F8FC26AD272A00A77618 /* TabbarShape.swift */; };
 		6C53F91326AD2CE900A77618 /* TabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F91226AD2CE900A77618 /* TabbarButton.swift */; };
+		6C53F93726AD3C2200A77618 /* AnimatedDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53F93626AD3C2200A77618 /* AnimatedDots.swift */; };
 		6C89488626832C2600FFBEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488526832C2600FFBEED /* AppDelegate.swift */; };
 		6C89488826832C2600FFBEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488726832C2600FFBEED /* SceneDelegate.swift */; };
 		6C89488A26832C2600FFBEED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89488926832C2600FFBEED /* ContentView.swift */; };
@@ -477,6 +478,7 @@
 		6C53F8ED26AD189200A77618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C53F8FC26AD272A00A77618 /* TabbarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarShape.swift; sourceTree = "<group>"; };
 		6C53F91226AD2CE900A77618 /* TabbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarButton.swift; sourceTree = "<group>"; };
+		6C53F93626AD3C2200A77618 /* AnimatedDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedDots.swift; sourceTree = "<group>"; };
 		6C89488226832C2600FFBEED /* SwiftUIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89488526832C2600FFBEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89488726832C2600FFBEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -1076,6 +1078,7 @@
 		6C53F74926AA572700A77618 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				6C53F93526AD3BA700A77618 /* AnimatedDots */,
 				6C53F8C226AD0DA900A77618 /* RemoveButton */,
 				6C53F8AA26AAA88D00A77618 /* CircleLoader */,
 				6C53F85D26AAA26800A77618 /* LikeView */,
@@ -1220,6 +1223,14 @@
 				6C53F91226AD2CE900A77618 /* TabbarButton.swift */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6C53F93526AD3BA700A77618 /* AnimatedDots */ = {
+			isa = PBXGroup;
+			children = (
+				6C53F93626AD3C2200A77618 /* AnimatedDots.swift */,
+			);
+			path = AnimatedDots;
 			sourceTree = "<group>";
 		};
 		6C89487926832C2600FFBEED = {
@@ -1843,6 +1854,7 @@
 				6C53F76926AA594E00A77618 /* SpinningView.swift in Sources */,
 				6C53F73126AA571E00A77618 /* SceneDelegate.swift in Sources */,
 				6C53F7DF26AA8CBB00A77618 /* Color+Extension.swift in Sources */,
+				6C53F93726AD3C2200A77618 /* AnimatedDots.swift in Sources */,
 				6C53F7B426AA8C2D00A77618 /* Plus.swift in Sources */,
 				6C53F7C826AA8C5E00A77618 /* Bolt.swift in Sources */,
 				6C53F87F26AAA3C000A77618 /* LowerCapsuleView.swift in Sources */,
