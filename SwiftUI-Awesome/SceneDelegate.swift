@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view that provides the window contents.
         // let contentView = SecondTime()
         // let contentView = DarkModeView()
-        let contentView = ColorMixView(colorRed: Double.random(in: 0 ..< 1), colorGreen: Double.random(in: 0 ..< 1), colorBlue: Double.random(in: 0 ..< 1))
+        // let contentView = ColorMixView(colorRed: Double.random(in: 0 ..< 1), colorGreen: Double.random(in: 0 ..< 1), colorBlue: Double.random(in: 0 ..< 1))
+        let contentView = SceneCatView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
