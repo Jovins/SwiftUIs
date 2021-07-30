@@ -290,6 +290,7 @@
 		6C89489226832C2700FFBEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C89489026832C2700FFBEED /* LaunchScreen.storyboard */; };
 		6C89489E2683383300FFBEED /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */; };
 		6C8948A12683B3D700FFBEED /* CalculatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */; };
+		6CA7534C26B3D596009EF392 /* TransCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7534B26B3D596009EF392 /* TransCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -619,6 +620,7 @@
 		6C89489326832C2700FFBEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorContentView.swift; sourceTree = "<group>"; };
+		6CA7534B26B3D596009EF392 /* TransCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1570,6 +1572,7 @@
 		6C53FC7326B0920200A77618 /* SwiftUI-Awesome */ = {
 			isa = PBXGroup;
 			children = (
+				6CA7534A26B3D578009EF392 /* TransCardView */,
 				6C53FD1A26B1C9D500A77618 /* SceneCat */,
 				6C53FD0726B1C10600A77618 /* ColorMix */,
 				6C53FCD626B1B3DF00A77618 /* Extension */,
@@ -1720,6 +1723,14 @@
 				6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		6CA7534A26B3D578009EF392 /* TransCardView */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7534B26B3D596009EF392 /* TransCardView.swift */,
+			);
+			path = TransCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2495,6 +2506,7 @@
 				6C53FCA726B1AC0C00A77618 /* SecondTime.swift in Sources */,
 				6C53FD0926B1C15D00A77618 /* ColorMixView.swift in Sources */,
 				6C53FD1C26B1C9F100A77618 /* SceneCatView.swift in Sources */,
+				6CA7534C26B3D596009EF392 /* TransCardView.swift in Sources */,
 				6C53FC7926B0920200A77618 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

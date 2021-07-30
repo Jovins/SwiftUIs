@@ -22,7 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let contentView = SecondTime()
         // let contentView = DarkModeView()
         // let contentView = ColorMixView(colorRed: Double.random(in: 0 ..< 1), colorGreen: Double.random(in: 0 ..< 1), colorBlue: Double.random(in: 0 ..< 1))
-        let contentView = SceneCatView()
+        // let contentView = SceneCatView()
+        let contentView = TransCardView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
