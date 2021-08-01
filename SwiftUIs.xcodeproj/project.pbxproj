@@ -21,6 +21,14 @@
 		6C3CFE0526B64873001D6418 /* ShinyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFE0426B64873001D6418 /* ShinyManager.swift */; };
 		6C3CFE2626B64C9E001D6418 /* ShinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFE2526B64C9E001D6418 /* ShinyView.swift */; };
 		6C3CFE3726B64FD2001D6418 /* ShinyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFE3626B64FD2001D6418 /* ShinyTestView.swift */; };
+		6C3CFEE726B6850B001D6418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFEE626B6850B001D6418 /* AppDelegate.swift */; };
+		6C3CFEE926B6850B001D6418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFEE826B6850B001D6418 /* SceneDelegate.swift */; };
+		6C3CFEEB26B6850B001D6418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFEEA26B6850B001D6418 /* ContentView.swift */; };
+		6C3CFEED26B6850C001D6418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3CFEEC26B6850C001D6418 /* Assets.xcassets */; };
+		6C3CFEF026B6850C001D6418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3CFEEF26B6850C001D6418 /* Preview Assets.xcassets */; };
+		6C3CFEF326B6850C001D6418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3CFEF126B6850C001D6418 /* LaunchScreen.storyboard */; };
+		6C3CFF0A26B685EE001D6418 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFF0926B685EE001D6418 /* Shimmer.swift */; };
+		6C3CFF2C26B68A78001D6418 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFF2B26B68A78001D6418 /* View+Extension.swift */; };
 		6C3D54CA268477280000FDFB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54C9268477280000FDFB /* CalculatorBrain.swift */; };
 		6C3D54D02685D19A0000FDFB /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3D54CF2685D19A0000FDFB /* CalculatorModel.swift */; };
 		6C3D551A2688E2520000FDFB /* ability-34.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D54DA2688E2510000FDFB /* ability-34.json */; };
@@ -339,6 +347,16 @@
 		6C3CFE1526B649A4001D6418 /* Shine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shine.entitlements; sourceTree = "<group>"; };
 		6C3CFE2526B64C9E001D6418 /* ShinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyView.swift; sourceTree = "<group>"; };
 		6C3CFE3626B64FD2001D6418 /* ShinyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyTestView.swift; sourceTree = "<group>"; };
+		6C3CFEE426B6850B001D6418 /* SwiftUI-Shimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Shimmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3CFEE626B6850B001D6418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C3CFEE826B6850B001D6418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C3CFEEA26B6850B001D6418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C3CFEEC26B6850C001D6418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C3CFEEF26B6850C001D6418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C3CFEF226B6850C001D6418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C3CFEF426B6850C001D6418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3CFF0926B685EE001D6418 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		6C3CFF2B26B68A78001D6418 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		6C3D54C9268477280000FDFB /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		6C3D54CF2685D19A0000FDFB /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		6C3D54DA2688E2510000FDFB /* ability-34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ability-34.json"; sourceTree = "<group>"; };
@@ -664,6 +682,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C3CFEE126B6850B001D6418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C4EBBE926A82B8E00E31612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -809,6 +834,38 @@
 				6C3CFE3626B64FD2001D6418 /* ShinyTestView.swift */,
 			);
 			path = Shiny;
+			sourceTree = "<group>";
+		};
+		6C3CFEE526B6850B001D6418 /* SwiftUI-Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CFF0826B6851D001D6418 /* Shimmer */,
+				6C3CFEE626B6850B001D6418 /* AppDelegate.swift */,
+				6C3CFEE826B6850B001D6418 /* SceneDelegate.swift */,
+				6C3CFEEA26B6850B001D6418 /* ContentView.swift */,
+				6C3CFEEC26B6850C001D6418 /* Assets.xcassets */,
+				6C3CFEF126B6850C001D6418 /* LaunchScreen.storyboard */,
+				6C3CFEF426B6850C001D6418 /* Info.plist */,
+				6C3CFEEE26B6850C001D6418 /* Preview Content */,
+			);
+			path = "SwiftUI-Shimmer";
+			sourceTree = "<group>";
+		};
+		6C3CFEEE26B6850C001D6418 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CFEEF26B6850C001D6418 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C3CFF0826B6851D001D6418 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				6C3CFF0926B685EE001D6418 /* Shimmer.swift */,
+				6C3CFF2B26B68A78001D6418 /* View+Extension.swift */,
+			);
+			path = Shimmer;
 			sourceTree = "<group>";
 		};
 		6C3D54D42688E08C0000FDFB /* PokeMaster */ = {
@@ -1753,6 +1810,7 @@
 				6C53FABB26B060AB00A77618 /* SwiftUI-MVVM */,
 				6C53FC7326B0920200A77618 /* SwiftUI-Awesome */,
 				6C3CFD9026B645D8001D6418 /* Shine */,
+				6C3CFEE526B6850B001D6418 /* SwiftUI-Shimmer */,
 				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
@@ -1776,6 +1834,7 @@
 				6C53FABA26B060AB00A77618 /* SwiftUI-MVVM.app */,
 				6C53FC7226B0920200A77618 /* SwiftUI-Awesome.app */,
 				6C3CFD8F26B645D8001D6418 /* Shine.app */,
+				6C3CFEE426B6850B001D6418 /* SwiftUI-Shimmer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1849,6 +1908,23 @@
 			name = Shine;
 			productName = Shine;
 			productReference = 6C3CFD8F26B645D8001D6418 /* Shine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C3CFEE326B6850B001D6418 /* SwiftUI-Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3CFEF726B6850D001D6418 /* Build configuration list for PBXNativeTarget "SwiftUI-Shimmer" */;
+			buildPhases = (
+				6C3CFEE026B6850B001D6418 /* Sources */,
+				6C3CFEE126B6850B001D6418 /* Frameworks */,
+				6C3CFEE226B6850B001D6418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Shimmer";
+			productName = "SwiftUI-Shimmer";
+			productReference = 6C3CFEE426B6850B001D6418 /* SwiftUI-Shimmer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6C4EBBEB26A82B8E00E31612 /* SwiftUI-CardAnimation */ = {
@@ -2102,6 +2178,9 @@
 					6C3CFD8E26B645D8001D6418 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					6C3CFEE326B6850B001D6418 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					6C4EBBEB26A82B8E00E31612 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -2174,6 +2253,7 @@
 				6C53FAB926B060AB00A77618 /* SwiftUI-MVVM */,
 				6C53FC7126B0920200A77618 /* SwiftUI-Awesome */,
 				6C3CFD8E26B645D8001D6418 /* Shine */,
+				6C3CFEE326B6850B001D6418 /* SwiftUI-Shimmer */,
 			);
 		};
 /* End PBXProject section */
@@ -2186,6 +2266,16 @@
 				6C3CFD9E26B645D9001D6418 /* LaunchScreen.storyboard in Resources */,
 				6C3CFD9B26B645D9001D6418 /* Preview Assets.xcassets in Resources */,
 				6C3CFD9826B645D9001D6418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3CFEE226B6850B001D6418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3CFEF326B6850C001D6418 /* LaunchScreen.storyboard in Resources */,
+				6C3CFEF026B6850C001D6418 /* Preview Assets.xcassets in Resources */,
+				6C3CFEED26B6850C001D6418 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2422,6 +2512,18 @@
 				6C3CFDC326B64617001D6418 /* Color+Extension.swift in Sources */,
 				6C3CFDE326B64629001D6418 /* UIColor+Extension.swift in Sources */,
 				6C3CFE3726B64FD2001D6418 /* ShinyTestView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3CFEE026B6850B001D6418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3CFEE726B6850B001D6418 /* AppDelegate.swift in Sources */,
+				6C3CFF0A26B685EE001D6418 /* Shimmer.swift in Sources */,
+				6C3CFF2C26B68A78001D6418 /* View+Extension.swift in Sources */,
+				6C3CFEE926B6850B001D6418 /* SceneDelegate.swift in Sources */,
+				6C3CFEEB26B6850B001D6418 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2702,6 +2804,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		6C3CFEF126B6850C001D6418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3CFEF226B6850C001D6418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6C4EBBF926A82B8F00E31612 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2858,6 +2968,48 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.Shine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C3CFEF526B6850C001D6418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Shimmer/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Shimmer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-Shimmer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C3CFEF626B6850C001D6418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Shimmer/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Shimmer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-Shimmer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3577,6 +3729,15 @@
 			buildConfigurations = (
 				6C3CFDA126B645D9001D6418 /* Debug */,
 				6C3CFDA226B645D9001D6418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3CFEF726B6850D001D6418 /* Build configuration list for PBXNativeTarget "SwiftUI-Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3CFEF526B6850C001D6418 /* Debug */,
+				6C3CFEF626B6850C001D6418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
