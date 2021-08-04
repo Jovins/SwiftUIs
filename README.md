@@ -39,13 +39,34 @@ When learning and using `SwiftUI`, if you have any questions, you can join the S
 
 <details close>
   <summary>View running results</summary>
-<img width="320", height="560" src="./Assets/Notes.gif"/>
+<img width="320", height="640" src="./Assets/Notes.gif"/>
 </details>
 
 ### 6. Design Code
 
 <details close>
   <summary>View running results</summary>
-<img width="320", height="560" src="./Assets/DesignCode.gif"/>
+<img width="320", height="640" src="./Assets/DesignCode.gif"/>
+</details>
+
+### 7. Flip Animation
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/FlipAnimation.gif"/>
+</details>
+
+### 8. Landmarks
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/Landmarks.gif"/>
+</details>
+
+### 9. SpinningLoader Animation
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/SpinningLoader.gif"/>
 </details>
 
