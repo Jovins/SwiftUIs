@@ -37,9 +37,9 @@ enum CalculatorBrain {
     func apply(_ item: CalculatorButtonItem) -> CalculatorBrain {
         switch item {
         case .digit(let num):
-            if case .left(let value) = self, value != "0" {
-                return .left("\(num)")
-            }
+//            if case .left(let value) = self, value != "0" {
+//                return .left("\(num)")
+//            }
             return apply(num)
         case .dot:
             return applyDot()
