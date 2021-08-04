@@ -16,7 +16,7 @@ struct ColorMixView: View {
     var body: some View {
         ZStack {
             Rectangle()
-                .foregroundColor(Color(red: colorRed, green: colorGreen, blue: colorBlue, opacity: 0.8))
+                .foregroundColor(Color(red: colorRed, green: colorGreen, blue: colorBlue, opacity: 1.0))
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 VStack {
