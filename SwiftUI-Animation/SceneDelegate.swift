@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         
-        let contentView = SpinningView()
+        // let contentView = SpinningView()
         // let contentView = LightSwitchView()
         // let contentView = InfinityView()
         // let contentView = LoginView()
@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let contentView = CircleLoader()
         // let contentView = RemoveButton()
         // let contentView = AnimatedDots()
-        // let contentView = AnimatedBallsView()
+        let contentView = AnimatedBallsView()
         
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

@@ -47,15 +47,14 @@ struct GithubLoader: View {
                         }
                     }
                 }
-            VStack{
+            VStack(alignment: .center) {
                 Spacer()
                 HStack {
-                    Spacer()
                     Text("Jovins Dev")
                         .foregroundColor(.white)
                         .font(.system(size: 28, weight: .medium, design: .monospaced))
-                        .opacity(0.5)
-                }.padding(.trailing, 16)
+                        .opacity(0.8)
+                }.padding()
             }
         }
     }

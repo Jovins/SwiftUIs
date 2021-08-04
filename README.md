@@ -70,3 +70,66 @@ When learning and using `SwiftUI`, if you have any questions, you can join the S
 <img width="320", height="640" src="./Assets/SpinningLoader.gif"/>
 </details>
 
+### 10. InfinityView Animation
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/InfinityView.gif"/>
+</details>
+
+### 11. LoginView
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/LoginView.gif"/>
+</details>
+
+### 12. GithubLoad
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/GithubLoad.gif"/>
+</details>
+
+### 13. LikeView
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/LikeView.gif"/>
+</details>
+
+### 14. CircleLoader
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/CircleLoader.gif"/>
+</details>
+
+### 15. RemoveButton
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/RemoveButton.gif"/>
+</details>
+
+### 16. AnimatedBallsView
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="440" src="./Assets/AnimatedBallsView.gif"/>
+</details>
+
+### 17. AnimationTabbar
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="700" src="./Assets/AnimationTabbar.gif"/>
+</details>
+
+### 18. Tabbar
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/Tabbar.gif"/>
+</details>
+
