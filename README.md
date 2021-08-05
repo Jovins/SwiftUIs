@@ -211,3 +211,9 @@ When learning and using `SwiftUI`, if you have any questions, you can join the S
 <img width="320", height="640" src="./Assets/CircleMenu.gif"/>
 </details>
 
+### 30. Charts
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/chartlightview.gif"/>
+</details>
