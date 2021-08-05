@@ -324,6 +324,20 @@
 		6C89489226832C2700FFBEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C89489026832C2700FFBEED /* LaunchScreen.storyboard */; };
 		6C89489E2683383300FFBEED /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */; };
 		6C8948A12683B3D700FFBEED /* CalculatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */; };
+		6CA14C6726BB94AA00BAB768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6626BB94AA00BAB768 /* AppDelegate.swift */; };
+		6CA14C6926BB94AA00BAB768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6826BB94AA00BAB768 /* SceneDelegate.swift */; };
+		6CA14C6B26BB94AA00BAB768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6A26BB94AA00BAB768 /* ContentView.swift */; };
+		6CA14C6D26BB94AA00BAB768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA14C6C26BB94AA00BAB768 /* Assets.xcassets */; };
+		6CA14C7026BB94AA00BAB768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA14C6F26BB94AA00BAB768 /* Preview Assets.xcassets */; };
+		6CA14C7326BB94AA00BAB768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA14C7126BB94AA00BAB768 /* LaunchScreen.storyboard */; };
+		6CA14C7A26BB94F700BAB768 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C7926BB94F700BAB768 /* ChartType.swift */; };
+		6CA14C7C26BB966300BAB768 /* DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C7B26BB966300BAB768 /* DataRepresentable.swift */; };
+		6CA14C7F26BB989000BAB768 /* Math+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C7E26BB989000BAB768 /* Math+Extension.swift */; };
+		6CA14C8126BB9C0200BAB768 /* ChartLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C8026BB9C0200BAB768 /* ChartLightView.swift */; };
+		6CA14C8326BBA07700BAB768 /* ChartLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C8226BBA07700BAB768 /* ChartLight.swift */; };
+		6CA14C8526BBA6BE00BAB768 /* ChartCurved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C8426BBA6BE00BAB768 /* ChartCurved.swift */; };
+		6CA14C8726BBBDE100BAB768 /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C8626BBBDE100BAB768 /* ContentRow.swift */; };
+		6CA14C8926BBD1E200BAB768 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C8826BBD1E200BAB768 /* Color+Extension.swift */; };
 		6CA7534C26B3D596009EF392 /* TransCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7534B26B3D596009EF392 /* TransCardView.swift */; };
 		6CA7536B26B3E29D009EF392 /* BreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7536A26B3E29D009EF392 /* BreathView.swift */; };
 /* End PBXBuildFile section */
@@ -696,6 +710,22 @@
 		6C89489326832C2700FFBEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorContentView.swift; sourceTree = "<group>"; };
+		6CA14C6426BB94AA00BAB768 /* SwiftUI-Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA14C6626BB94AA00BAB768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA14C6826BB94AA00BAB768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CA14C6A26BB94AA00BAB768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CA14C6C26BB94AA00BAB768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA14C6F26BB94AA00BAB768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CA14C7226BB94AA00BAB768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CA14C7426BB94AA00BAB768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA14C7926BB94F700BAB768 /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
+		6CA14C7B26BB966300BAB768 /* DataRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepresentable.swift; sourceTree = "<group>"; };
+		6CA14C7E26BB989000BAB768 /* Math+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Math+Extension.swift"; sourceTree = "<group>"; };
+		6CA14C8026BB9C0200BAB768 /* ChartLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLightView.swift; sourceTree = "<group>"; };
+		6CA14C8226BBA07700BAB768 /* ChartLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLight.swift; sourceTree = "<group>"; };
+		6CA14C8426BBA6BE00BAB768 /* ChartCurved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCurved.swift; sourceTree = "<group>"; };
+		6CA14C8626BBBDE100BAB768 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
+		6CA14C8826BBD1E200BAB768 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		6CA7534B26B3D596009EF392 /* TransCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransCardView.swift; sourceTree = "<group>"; };
 		6CA7536A26B3E29D009EF392 /* BreathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -814,6 +844,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6C89487F26832C2600FFBEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA14C6126BB94AA00BAB768 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1889,6 +1926,7 @@
 				6C3CFD9026B645D8001D6418 /* Shine */,
 				6C3CFEE526B6850B001D6418 /* SwiftUI-Shimmer */,
 				6C2F91B826BA471F00276181 /* SwiftUI-Menu */,
+				6CA14C6526BB94AA00BAB768 /* SwiftUI-Charts */,
 				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
@@ -1914,6 +1952,7 @@
 				6C3CFD8F26B645D8001D6418 /* Shine.app */,
 				6C3CFEE426B6850B001D6418 /* SwiftUI-Shimmer.app */,
 				6C2F91B726BA471F00276181 /* SwiftUI-Menu.app */,
+				6CA14C6426BB94AA00BAB768 /* SwiftUI-Charts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1951,6 +1990,52 @@
 				6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		6CA14C6526BB94AA00BAB768 /* SwiftUI-Charts */ = {
+			isa = PBXGroup;
+			children = (
+				6CA14C7826BB94B200BAB768 /* Charts */,
+				6CA14C6626BB94AA00BAB768 /* AppDelegate.swift */,
+				6CA14C6826BB94AA00BAB768 /* SceneDelegate.swift */,
+				6CA14C6A26BB94AA00BAB768 /* ContentView.swift */,
+				6CA14C8626BBBDE100BAB768 /* ContentRow.swift */,
+				6CA14C6C26BB94AA00BAB768 /* Assets.xcassets */,
+				6CA14C7126BB94AA00BAB768 /* LaunchScreen.storyboard */,
+				6CA14C7426BB94AA00BAB768 /* Info.plist */,
+				6CA14C6E26BB94AA00BAB768 /* Preview Content */,
+			);
+			path = "SwiftUI-Charts";
+			sourceTree = "<group>";
+		};
+		6CA14C6E26BB94AA00BAB768 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CA14C6F26BB94AA00BAB768 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CA14C7826BB94B200BAB768 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				6CA14C7D26BB987F00BAB768 /* Extension */,
+				6CA14C7926BB94F700BAB768 /* ChartType.swift */,
+				6CA14C7B26BB966300BAB768 /* DataRepresentable.swift */,
+				6CA14C8026BB9C0200BAB768 /* ChartLightView.swift */,
+				6CA14C8226BBA07700BAB768 /* ChartLight.swift */,
+				6CA14C8426BBA6BE00BAB768 /* ChartCurved.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		6CA14C7D26BB987F00BAB768 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6CA14C7E26BB989000BAB768 /* Math+Extension.swift */,
+				6CA14C8826BBD1E200BAB768 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		6CA7534A26B3D578009EF392 /* TransCardView */ = {
@@ -2262,6 +2347,23 @@
 			productReference = 6C89488226832C2600FFBEED /* SwiftUIs.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6CA14C6326BB94AA00BAB768 /* SwiftUI-Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA14C7726BB94AA00BAB768 /* Build configuration list for PBXNativeTarget "SwiftUI-Charts" */;
+			buildPhases = (
+				6CA14C6026BB94AA00BAB768 /* Sources */,
+				6CA14C6126BB94AA00BAB768 /* Frameworks */,
+				6CA14C6226BB94AA00BAB768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Charts";
+			productName = "SwiftUI-Charts";
+			productReference = 6CA14C6426BB94AA00BAB768 /* SwiftUI-Charts.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2322,6 +2424,9 @@
 					6C89488126832C2600FFBEED = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					6CA14C6326BB94AA00BAB768 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = 6C89487D26832C2600FFBEED /* Build configuration list for PBXProject "SwiftUIs" */;
@@ -2354,6 +2459,7 @@
 				6C3CFD8E26B645D8001D6418 /* Shine */,
 				6C3CFEE326B6850B001D6418 /* SwiftUI-Shimmer */,
 				6C2F91B626BA471F00276181 /* SwiftUI-Menu */,
+				6CA14C6326BB94AA00BAB768 /* SwiftUI-Charts */,
 			);
 		};
 /* End PBXProject section */
@@ -2603,6 +2709,16 @@
 				6C3D55522688E2520000FDFB /* pokemon-9.json in Resources */,
 				6C3D553E2688E2520000FDFB /* pokemon-19.json in Resources */,
 				6C3D55402688E2520000FDFB /* pokemon-15.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA14C6226BB94AA00BAB768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA14C7326BB94AA00BAB768 /* LaunchScreen.storyboard in Resources */,
+				6CA14C7026BB94AA00BAB768 /* Preview Assets.xcassets in Resources */,
+				6CA14C6D26BB94AA00BAB768 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2919,6 +3035,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6CA14C6026BB94AA00BAB768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA14C7C26BB966300BAB768 /* DataRepresentable.swift in Sources */,
+				6CA14C8526BBA6BE00BAB768 /* ChartCurved.swift in Sources */,
+				6CA14C6726BB94AA00BAB768 /* AppDelegate.swift in Sources */,
+				6CA14C6926BB94AA00BAB768 /* SceneDelegate.swift in Sources */,
+				6CA14C7A26BB94F700BAB768 /* ChartType.swift in Sources */,
+				6CA14C6B26BB94AA00BAB768 /* ContentView.swift in Sources */,
+				6CA14C8326BBA07700BAB768 /* ChartLight.swift in Sources */,
+				6CA14C8126BB9C0200BAB768 /* ChartLightView.swift in Sources */,
+				6CA14C8726BBBDE100BAB768 /* ContentRow.swift in Sources */,
+				6CA14C8926BBD1E200BAB768 /* Color+Extension.swift in Sources */,
+				6CA14C7F26BB989000BAB768 /* Math+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -3054,6 +3188,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				6C89489126832C2700FFBEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA14C7126BB94AA00BAB768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA14C7226BB94AA00BAB768 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3899,6 +4041,50 @@
 			};
 			name = Release;
 		};
+		6CA14C7526BB94AA00BAB768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Charts/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA14C7626BB94AA00BAB768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Charts/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.jovins.SwiftUI-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4060,6 +4246,15 @@
 			buildConfigurations = (
 				6C89489726832C2700FFBEED /* Debug */,
 				6C89489826832C2700FFBEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA14C7726BB94AA00BAB768 /* Build configuration list for PBXNativeTarget "SwiftUI-Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA14C7526BB94AA00BAB768 /* Debug */,
+				6CA14C7626BB94AA00BAB768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
