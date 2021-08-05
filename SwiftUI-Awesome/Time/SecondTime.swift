@@ -29,9 +29,6 @@ struct SecondTime: View {
                             .font(.system(size: 80, weight: .black))
                             .italic()
                             .foregroundColor(Color.white)
-                            .onAppear(perform: {
-                                _ = self.timer
-                            })
 
                         Text("s")
                             .font(.system(size: 40, weight: .black))
@@ -42,6 +39,9 @@ struct SecondTime: View {
                     .shadow(color: Color.black.opacity(0.25), radius: 10, x: 0, y: 4)
                 }
             }
+        }
+        .onTapGesture {
+            _ = self.timer
         }
     }
     

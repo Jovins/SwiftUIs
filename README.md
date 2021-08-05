@@ -132,4 +132,82 @@ When learning and using `SwiftUI`, if you have any questions, you can join the S
   <summary>View running results</summary>
 <img width="320", height="640" src="./Assets/Tabbar.gif"/>
 </details>
+### 19. 2048
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="610" src="./Assets/2048.gif"/>
+</details>
+
+### 20. Github Search API For MVVM
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/githubmvvm.gif"/>
+</details>
+
+### 21. Time
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/timer.gif"/>
+</details>
+
+### 22. ColorMix
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/ColorMix.gif"/>
+</details>
+
+### 23. SceneCatView with SceneKit
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/scenecat.gif"/>
+</details>
+
+### 24. TransCardView
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/transcard.gif"/>
+</details>
+
+### 25. BreathView
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/breathView.gif"/>
+</details>
+
+### 26. SideMenu
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/sidemenu.gif"/>
+</details>
+
+### 27. Shine
+
++ 随陀螺仪的转动，颜色随着变化
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="720" src="./Assets/shine.gif"/>
+</details>
+
+### 28. Shimmer
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="340" src="./Assets/shimmer.gif"/>
+</details>
+
+### 29. Circle Menu
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="640" src="./Assets/CircleMenu.gif"/>
+</details>
 

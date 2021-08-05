@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("shiny")
+        Text("Shimmer")
             .font(.largeTitle)
             .fontWeight(.bold).shimmering()
             .background(
