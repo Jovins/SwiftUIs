@@ -26,7 +26,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let contentView = TransCardView()
         // let contentView = BreathView()
         // let contentView = SideMenu()
-        let contentView = CustomTabbar()
+        // let contentView = CustomTabbar()
+        let contentView = FloatingTabbarView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

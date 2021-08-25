@@ -324,6 +324,7 @@
 		6C89489226832C2700FFBEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C89489026832C2700FFBEED /* LaunchScreen.storyboard */; };
 		6C89489E2683383300FFBEED /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */; };
 		6C8948A12683B3D700FFBEED /* CalculatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */; };
+		6C94A68826D634C60096022F /* FloatingTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C94A68726D634C60096022F /* FloatingTabbarView.swift */; };
 		6CA14C6726BB94AA00BAB768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6626BB94AA00BAB768 /* AppDelegate.swift */; };
 		6CA14C6926BB94AA00BAB768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6826BB94AA00BAB768 /* SceneDelegate.swift */; };
 		6CA14C6B26BB94AA00BAB768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA14C6A26BB94AA00BAB768 /* ContentView.swift */; };
@@ -711,6 +712,7 @@
 		6C89489326832C2700FFBEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C89489D2683383300FFBEED /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorContentView.swift; sourceTree = "<group>"; };
+		6C94A68726D634C60096022F /* FloatingTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabbarView.swift; sourceTree = "<group>"; };
 		6CA14C6426BB94AA00BAB768 /* SwiftUI-Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA14C6626BB94AA00BAB768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA14C6826BB94AA00BAB768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -1831,6 +1833,7 @@
 		6C53FC7326B0920200A77618 /* SwiftUI-Awesome */ = {
 			isa = PBXGroup;
 			children = (
+				6C94A68626D6323E0096022F /* Floating Tabbar */,
 				6CC17CDB26CF9EA9003B1859 /* CustomTabbar */,
 				6C3CFD1D26B62E27001D6418 /* SideMenu */,
 				6CA7536926B3E28A009EF392 /* BreathView */,
@@ -1993,6 +1996,14 @@
 				6C8948A02683B3D700FFBEED /* CalculatorContentView.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		6C94A68626D6323E0096022F /* Floating Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6C94A68726D634C60096022F /* FloatingTabbarView.swift */,
+			);
+			path = "Floating Tabbar";
 			sourceTree = "<group>";
 		};
 		6CA14C6526BB94AA00BAB768 /* SwiftUI-Charts */ = {
@@ -3005,6 +3016,7 @@
 				6C53FCB926B1B1A600A77618 /* DarkModeView.swift in Sources */,
 				6C53FC7726B0920200A77618 /* SceneDelegate.swift in Sources */,
 				6C53FCA726B1AC0C00A77618 /* SecondTime.swift in Sources */,
+				6C94A68826D634C60096022F /* FloatingTabbarView.swift in Sources */,
 				6C53FD0926B1C15D00A77618 /* ColorMixView.swift in Sources */,
 				6C53FD1C26B1C9F100A77618 /* SceneCatView.swift in Sources */,
 				6CA7534C26B3D596009EF392 /* TransCardView.swift in Sources */,
