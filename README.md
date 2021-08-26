@@ -7,6 +7,13 @@
 
 When learning and using `SwiftUI`, if you have any questions, you can join the SwiftUI QQ Group: **471020594** to discuss communication.
 
+### 0.Grid
+
+<details close>
+  <summary>View running results</summary>
+<img width="320", height="670" src="./Assets/StaggeredGrid.gif"/>
+</details>
+
 ### 1. Calculator
 
 <details close>
@@ -35,12 +42,13 @@ When learning and using `SwiftUI`, if you have any questions, you can join the S
 <img width="320", height="637" src="./Assets/BasicAnimation.gif"/>
 </details>
 
-### 5. Notes
+### 5. Floating Tabbar
 
 <details close>
   <summary>View running results</summary>
-<img width="320", height="640" src="./Assets/Notes.gif"/>
+<img width="320", height="640" src="./Assets/FloatingTabbar.gif"/>
 </details>
+
 
 ### 6. Design Code
 
