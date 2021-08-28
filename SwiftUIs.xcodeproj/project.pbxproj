@@ -350,6 +350,7 @@
 		6CB8D6C926D7605100F3E4A4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6C826D7605100F3E4A4 /* Post.swift */; };
 		6CB8D6CE26D7615500F3E4A4 /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6CD26D7615500F3E4A4 /* StaggeredGrid.swift */; };
 		6CB8D6D126D76F8F00F3E4A4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6D026D76F8F00F3E4A4 /* Home.swift */; };
+		6CB8D6D326D77F2E00F3E4A4 /* ScrollowRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */; };
 		6CC17CDF26CF9F18003B1859 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC17CDE26CF9F18003B1859 /* CustomTabbar.swift */; };
 /* End PBXBuildFile section */
 
@@ -751,6 +752,7 @@
 		6CB8D6C826D7605100F3E4A4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		6CB8D6CD26D7615500F3E4A4 /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		6CB8D6D026D76F8F00F3E4A4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollowRefreshable.swift; sourceTree = "<group>"; };
 		6CC17CDE26CF9F18003B1859 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2142,6 +2144,7 @@
 			isa = PBXGroup;
 			children = (
 				6CB8D6D026D76F8F00F3E4A4 /* Home.swift */,
+				6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -3196,6 +3199,7 @@
 				6CB8D6BA26D75EFC00F3E4A4 /* ContentView.swift in Sources */,
 				6CB8D6D126D76F8F00F3E4A4 /* Home.swift in Sources */,
 				6CB8D6C926D7605100F3E4A4 /* Post.swift in Sources */,
+				6CB8D6D326D77F2E00F3E4A4 /* ScrollowRefreshable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4249,7 +4253,7 @@
 				DEVELOPMENT_TEAM = SJM6GRJ299;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ScrollowRefreshable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4271,7 +4275,7 @@
 				DEVELOPMENT_TEAM = SJM6GRJ299;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ScrollowRefreshable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

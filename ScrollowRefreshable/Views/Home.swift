@@ -16,15 +16,22 @@ struct Home: View {
     var body: some View {
         NavigationView {
             
-            StaggeredGrid(columns: self.columns, list: self.posts) { post in
-                PostView(post: post)
-                    .matchedGeometryEffect(id: post.id, in: animation)
-                    .onAppear {
-                        print("post = \(post.img)")
-                    }
-            }
-            .padding(.horizontal)
-            .navigationBarTitle(Text("ScrollowRefreshable"))
+            ScrollowRefreshable(title: "下拉刷新", tintColor: .purple, content: {
+                
+                StaggeredGrid(columns: self.columns, list: self.posts) { post in
+                    PostView(post: post)
+                        .matchedGeometryEffect(id: post.id, in: animation)
+                        .onAppear {
+                            print("post = \(post.img)")
+                        }
+                }
+                .padding(.horizontal)
+            }, onRefresh: {
+                // refresh await since iOS 15
+                await Task.sleep(2_000_000_000)
+            })
+            .navigationTitle(Text("Staggered Grid"))
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
