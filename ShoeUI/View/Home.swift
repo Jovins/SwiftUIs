@@ -78,8 +78,10 @@ struct Home: View {
                     ForEach(products) { product in
                         CardView(product: product)
                             .onTapGesture {
-                                self.baseData.currentProduct = product
-                                self.baseData.showDetail = true
+                                withAnimation {
+                                    self.baseData.currentProduct = product
+                                    self.baseData.showDetail = true
+                                }
                             }
                     }
                 }
