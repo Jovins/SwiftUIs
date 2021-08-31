@@ -11,6 +11,10 @@ class BaseViewModel: ObservableObject {
     
     // tab...
     @Published var currentTab: Tab = .Home
+    @Published var homeTab = "Sneakers"
+    // Detail
+    @Published var currentProduct: Product?
+    @Published var showDetail: Bool = false
 }
 
 enum Tab: String {

@@ -20,7 +20,8 @@ struct BaseView: View {
        
         TabView(selection: self.$baseData.currentTab) {
             
-            Text("Home")
+            Home()
+                .environmentObject(self.baseData)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.black.opacity(0.04))
                 .tag(Tab.Home)
@@ -36,6 +37,7 @@ struct BaseView: View {
             HStack(spacing: 0) {
                 TabbarButton(Tab: .Home)
                 TabbarButton(Tab: .Heart)
+                    .offset(x: -10)
                 
                 // center curved
                 Button {
@@ -54,9 +56,10 @@ struct BaseView: View {
                         .shadow(color: Color.black.opacity(0.05), radius: 5, x: 5, y: 5)
                         .shadow(color: Color.black.opacity(0.05), radius: 5, x: -5, y: -5)
                 }
-                .offset(y: -32)
+                .offset(y: -30)
                 
                 TabbarButton(Tab: .ClipBoard)
+                    .offset(x: 10)
                 TabbarButton(Tab: .Person)
             }
                 .background(
