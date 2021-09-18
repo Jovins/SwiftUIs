@@ -365,6 +365,13 @@
 		6CB8D6CE26D7615500F3E4A4 /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6CD26D7615500F3E4A4 /* StaggeredGrid.swift */; };
 		6CB8D6D126D76F8F00F3E4A4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6D026D76F8F00F3E4A4 /* Home.swift */; };
 		6CB8D6D326D77F2E00F3E4A4 /* ScrollowRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */; };
+		6CB963C326F5EB320015ACC8 /* ShopUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB963C226F5EB320015ACC8 /* ShopUIApp.swift */; };
+		6CB963C526F5EB320015ACC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB963C426F5EB320015ACC8 /* ContentView.swift */; };
+		6CB963C726F5EB340015ACC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB963C626F5EB340015ACC8 /* Assets.xcassets */; };
+		6CB963CA26F5EB340015ACC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB963C926F5EB340015ACC8 /* Preview Assets.xcassets */; };
+		6CB963D026F5EC530015ACC8 /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB963CF26F5EC530015ACC8 /* Color+Ex.swift */; };
+		6CB963D426F5F0460015ACC8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB963D326F5F0460015ACC8 /* BaseView.swift */; };
+		6CB963D626F5FACE0015ACC8 /* CustomTabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB963D526F5FACE0015ACC8 /* CustomTabCurve.swift */; };
 		6CC17CDF26CF9F18003B1859 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC17CDE26CF9F18003B1859 /* CustomTabbar.swift */; };
 /* End PBXBuildFile section */
 
@@ -784,6 +791,14 @@
 		6CB8D6CD26D7615500F3E4A4 /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
 		6CB8D6D026D76F8F00F3E4A4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollowRefreshable.swift; sourceTree = "<group>"; };
+		6CB963C026F5EB320015ACC8 /* ShopUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB963C226F5EB320015ACC8 /* ShopUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopUIApp.swift; sourceTree = "<group>"; };
+		6CB963C426F5EB320015ACC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CB963C626F5EB340015ACC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB963C926F5EB340015ACC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CB963CF26F5EC530015ACC8 /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
+		6CB963D326F5F0460015ACC8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6CB963D526F5FACE0015ACC8 /* CustomTabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabCurve.swift; sourceTree = "<group>"; };
 		6CC17CDE26CF9F18003B1859 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -929,6 +944,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6CB8D6B026D75EFC00F3E4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB963BD26F5EB320015ACC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2079,6 +2101,7 @@
 				6CB8D6B426D75EFC00F3E4A4 /* ScrollowRefreshable */,
 				6C25AB4926DC7D6300C427D4 /* Custom Segment */,
 				6C5D28B626DDCECE0044E561 /* ShoeUI */,
+				6CB963C126F5EB320015ACC8 /* ShopUI */,
 				6C3D55A0268C7B870000FDFB /* Frameworks */,
 				6C89488326832C2600FFBEED /* Products */,
 			);
@@ -2108,6 +2131,7 @@
 				6CB8D6B326D75EFC00F3E4A4 /* ScrollowRefreshable.app */,
 				6C25AB4826DC7D6300C427D4 /* Custom Segment.app */,
 				6C5D28B526DDCECE0044E561 /* ShoeUI.app */,
+				6CB963C026F5EB320015ACC8 /* ShopUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2265,6 +2289,52 @@
 				6CB8D6D226D77F2E00F3E4A4 /* ScrollowRefreshable.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6CB963C126F5EB320015ACC8 /* ShopUI */ = {
+			isa = PBXGroup;
+			children = (
+				6CB963D226F5F0140015ACC8 /* Models */,
+				6CB963D126F5F00B0015ACC8 /* Views */,
+				6CB963CE26F5EC400015ACC8 /* Extension */,
+				6CB963C226F5EB320015ACC8 /* ShopUIApp.swift */,
+				6CB963C426F5EB320015ACC8 /* ContentView.swift */,
+				6CB963C626F5EB340015ACC8 /* Assets.xcassets */,
+				6CB963C826F5EB340015ACC8 /* Preview Content */,
+			);
+			path = ShopUI;
+			sourceTree = "<group>";
+		};
+		6CB963C826F5EB340015ACC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CB963C926F5EB340015ACC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CB963CE26F5EC400015ACC8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6CB963CF26F5EC530015ACC8 /* Color+Ex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6CB963D126F5F00B0015ACC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CB963D326F5F0460015ACC8 /* BaseView.swift */,
+				6CB963D526F5FACE0015ACC8 /* CustomTabCurve.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CB963D226F5F0140015ACC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		6CC17CDB26CF9EA9003B1859 /* CustomTabbar */ = {
@@ -2636,6 +2706,23 @@
 			productReference = 6CB8D6B326D75EFC00F3E4A4 /* ScrollowRefreshable.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6CB963BF26F5EB320015ACC8 /* ShopUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB963CB26F5EB340015ACC8 /* Build configuration list for PBXNativeTarget "ShopUI" */;
+			buildPhases = (
+				6CB963BC26F5EB320015ACC8 /* Sources */,
+				6CB963BD26F5EB320015ACC8 /* Frameworks */,
+				6CB963BE26F5EB320015ACC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopUI;
+			productName = ShopUI;
+			productReference = 6CB963C026F5EB320015ACC8 /* ShopUI.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2708,6 +2795,9 @@
 					6CB8D6B226D75EFC00F3E4A4 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					6CB963BF26F5EB320015ACC8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = 6C89487D26832C2600FFBEED /* Build configuration list for PBXProject "SwiftUIs" */;
@@ -2744,6 +2834,7 @@
 				6CB8D6B226D75EFC00F3E4A4 /* ScrollowRefreshable */,
 				6C25AB4726DC7D6300C427D4 /* Custom Segment */,
 				6C5D28B426DDCECE0044E561 /* ShoeUI */,
+				6CB963BF26F5EB320015ACC8 /* ShopUI */,
 			);
 		};
 /* End PBXProject section */
@@ -3031,6 +3122,15 @@
 				6CB8D6C226D75EFC00F3E4A4 /* LaunchScreen.storyboard in Resources */,
 				6CB8D6BF26D75EFC00F3E4A4 /* Preview Assets.xcassets in Resources */,
 				6CB8D6BC26D75EFC00F3E4A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB963BE26F5EB320015ACC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB963CA26F5EB340015ACC8 /* Preview Assets.xcassets in Resources */,
+				6CB963C726F5EB340015ACC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3402,6 +3502,18 @@
 				6CB8D6D126D76F8F00F3E4A4 /* Home.swift in Sources */,
 				6CB8D6C926D7605100F3E4A4 /* Post.swift in Sources */,
 				6CB8D6D326D77F2E00F3E4A4 /* ScrollowRefreshable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB963BC26F5EB320015ACC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB963C526F5EB320015ACC8 /* ContentView.swift in Sources */,
+				6CB963C326F5EB320015ACC8 /* ShopUIApp.swift in Sources */,
+				6CB963D026F5EC530015ACC8 /* Color+Ex.swift in Sources */,
+				6CB963D426F5F0460015ACC8 /* BaseView.swift in Sources */,
+				6CB963D626F5FACE0015ACC8 /* CustomTabCurve.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4595,6 +4707,68 @@
 			};
 			name = Release;
 		};
+		6CB963CC26F5EB340015ACC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.ShopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CB963CD26F5EB340015ACC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.ShopUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4792,6 +4966,15 @@
 			buildConfigurations = (
 				6CB8D6C526D75EFC00F3E4A4 /* Debug */,
 				6CB8D6C626D75EFC00F3E4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB963CB26F5EB340015ACC8 /* Build configuration list for PBXNativeTarget "ShopUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB963CC26F5EB340015ACC8 /* Debug */,
+				6CB963CD26F5EB340015ACC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
